@@ -1,0 +1,12 @@
+El algoritmo KNN utiliza metricas de similitud (distancia euclidina o similitud coseno), para este caso recomendar peliculas que pueden ser basados en el historial de gustos o caracteristicas entre usuarios. 
+La KNN buscara los usuarios que tengan gustos similares y recomendara peliculas de vecinos que han visto y
+calificado bien a usuarios que no han visto la pelicula. 
+
+VENTAJAS:
+--> Personalizacion en recomendaciones, debido a las recomendaciones personalizadas basadas en usuarios similares.
+--> Interpretabilidad, es un apoyo para explicar la recomenndacion dada.
+
+DESVENTAJAS:
+--> Dispersion de datos, debido a que los usuarios no suelen calificar la mayoria de peliculas
+generando una matriz dispersa.
+--> Escalabilidad, es costoso en tiempo y recursos computacionales a medida que la data aumenta.
